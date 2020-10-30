@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
-const goodbye = require('./goodbye');
+const goodbye = require('./events/goodbye');
 require('dotenv').config();
 const client = new Discord.Client();
 const token = process.env.BOT_TOKEN ;
-const welcome = require('./welcome')
+const welcome = require('./events/welcome')
 
 client.on('ready',()=>{
     console.log(`Logged in as ${client.user.tag}`);
