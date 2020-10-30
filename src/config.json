@@ -1,9 +1,9 @@
 {
     "channels" : {
-        "welcomeChannel" : "736833805075349504" ,
-        "goodbyeChannel" : "736833805075349504"
+        "welcomeChannel" : "channelGoesHere" ,
+        "goodbyeChannel" : "channelGoesHere"
     },"messages" : {
-        "welcomeMessage" : "hopped on the server" ,
-        "goodbyeMessage" : "just left the server"
+        "welcomeMessage" : "hopped on the server👋" ,
+        "goodbyeMessage" : "just left the serversad😢"
     }
 }
